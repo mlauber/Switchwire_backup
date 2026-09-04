@@ -1,6 +1,3 @@
-# Happy Hare MMU includes (should be near top of file)
-[include mmu/base/*.cfg]
-[include mmu/macros/*.cfg]
 
 ## Webclient config files. Uncomment one depending on UI being used.
 [include mainsail.cfg]
@@ -373,9 +370,6 @@ gcode:
 ############################################################################################
 
 [include Idle_Timeout.cfg]
-
-# Happy Hare Client macros (should be after last include or other PAUSE/CANCEL macros)
-[include mmu/optional/client_macros.cfg]
 
 [exclude_object]
 
